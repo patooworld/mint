@@ -13,6 +13,7 @@ import { Expandable } from '@/components/Expandable'
 import { CardGroup, Info, Warning, Note, Tip, Check } from '@mintlify/components'
 import { Tabs, Tab } from '@mintlify/components'
 import { Tooltip } from '@mintlify/components'
+import { Frame } from '@mintlify/components'
 import { solid, regular, light, thin, duotone, brands } from '@/ui/Icon'
 `;
 
