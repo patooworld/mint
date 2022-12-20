@@ -8,7 +8,7 @@ import { fileURLToPath } from 'url';
 import faviconConfig from './faviconConfig.js';
 import { createPage, injectNav } from './injectNav.js';
 
-const API_ENDPOINT = 'https://docs.mintlify.com';
+const API_ENDPOINT = process.env.API_ENDPOINT;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
