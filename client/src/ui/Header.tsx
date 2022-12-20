@@ -209,7 +209,9 @@ export function NavItems() {
           </Link>
         </li>
       ))}
-      {config?.topbarCtaButton && <TopBarCtaButton button={config.topbarCtaButton} />}
+      {config?.topbarCtaButton && config?.topbarCtaButton?.name && (
+        <TopBarCtaButton button={config.topbarCtaButton} />
+      )}
     </>
   );
 }
