@@ -21,6 +21,12 @@ interface PathProps extends ParsedUrlQuery {
 }
 
 export const getStaticPaths: GetStaticPaths<PathProps> = async () => {
+  if (process.env?.MULTI_TENANT == null) {
+    return {
+      paths: [],
+      fallback: 'blocking',
+    };
+  }
   const data: Record<string, string[][]> = await getPaths();
   const paths = Object.entries(data).flatMap(
     ([subdomain, pathsForSubdomain]: [string, string[][]]) => {
@@ -36,6 +42,11 @@ export const getStaticPaths: GetStaticPaths<PathProps> = async () => {
 };
 
 export const getStaticProps: GetStaticProps<PageProps, PathProps> = async ({ params }) => {
+  if (process.env?.MULTI_TENANT == null) {
+    return {
+      notFound: true,
+    };
+  }
   if (!params) throw new Error('No path parameters found');
 
   const { subdomain, slug } = params;
