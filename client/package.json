@@ -40,7 +40,7 @@
     "clean-css": "^4.2.3",
     "clsx": "^1.1.1",
     "date-and-time": "^2.4.1",
-    "eslint-config-next": "^13.0.6",
+    "eslint-config-next": "^13.4.19",
     "fathom-client": "^3.5.0",
     "favicons": "^7.0.2",
     "file-loader": "^6.0.0",
