@@ -1,9 +1,9 @@
 {
-  "name": "Mintlify",
+  "name": "Patooworld Docs",
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg",
-    "href": "https://mintlify.com"
+    "href": "https://docs.patooworld.com"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -18,12 +18,12 @@
   "topbarLinks": [
     {
       "name": "Showcase",
-      "url": "https://mintlify.com/showcase"
+      "url": "https://docs.patooworld.com/showcase"
     }
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://mintlify.com/start"
+    "url": "https://docs.patooworld.com/start"
   },
   "anchors": [
     {
@@ -34,18 +34,21 @@
     {
       "name": "Community",
       "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "url": "https://docs.patooworld.com/community"
     },
     {
       "name": "GitHub",
       "icon": "github",
-      "url": "https://github.com/mintlify/mint"
+      "url": "https://github.com/patooworld/mint"
     }
   ],
   "navigation": [
     {
       "group": "Getting Started",
-      "pages": ["quickstart", "development"]
+      "pages": [
+        "quickstart",
+        "development"
+      ]
     },
     {
       "group": "Settings",
@@ -112,7 +115,9 @@
       "pages": [
         {
           "group": "Command Line Changelog",
-          "pages": ["changelog/command-line/2.0.15"]
+          "pages": [
+            "changelog/command-line/2.0.15"
+          ]
         }
       ]
     },
@@ -128,7 +133,11 @@
     },
     {
       "group": "Context Components",
-      "pages": ["components/callouts", "components/frame", "components/tooltip"]
+      "pages": [
+        "components/callouts",
+        "components/frame",
+        "components/tooltip"
+      ]
     },
     {
       "group": "API Components",
@@ -141,9 +150,9 @@
     }
   ],
   "footerSocials": {
-    "github": "https://github.com/mintlify",
-    "discord": "https://discord.gg/MPNgtSZkgK",
-    "twitter": "https://twitter.com/mintlify"
+    "github": "https://github.com/patooworld",
+    "linkedin": "https://linkedin.com/patooworld",
+    "twitter": "https://twitter.com/patooworld"
   },
   "analytics": {
     "fathom": {
