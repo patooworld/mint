@@ -22,7 +22,7 @@
     "@apidevtools/swagger-parser": "^10.1.0",
     "@mintlify/validation": "^0.1.4",
     "@octokit/rest": "^19.0.5",
-    "axios": "^1.2.2",
+    "axios": "^1.6.0",
     "chalk": "^5.1.0",
     "cheerio": "^0.22.0",
     "chokidar": "^3.5.3",
