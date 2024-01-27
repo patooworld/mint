@@ -37,7 +37,7 @@
     "open": "^8.4.0",
     "openapi-types": "^12.0.2",
     "ora": "^6.1.2",
-    "puppeteer": "^19.4.0",
+    "puppeteer": "^19.7.3",
     "remark": "^14.0.2",
     "remark-frontmatter": "^4.0.1",
     "remark-gfm": "^3.0.1",
